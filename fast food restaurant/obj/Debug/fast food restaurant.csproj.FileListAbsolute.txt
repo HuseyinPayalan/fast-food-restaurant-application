@@ -1,0 +1,44 @@
+C:\Users\Pc\Desktop\fast food restaurant\bin\Debug\fast food restaurant.exe.config
+C:\Users\Pc\Desktop\fast food restaurant\bin\Debug\fast food restaurant.exe
+C:\Users\Pc\Desktop\fast food restaurant\bin\Debug\fast food restaurant.pdb
+C:\Users\Pc\Desktop\fast food restaurant\obj\Debug\fast_food_restaurant.Form1.resources
+C:\Users\Pc\Desktop\fast food restaurant\obj\Debug\fast_food_restaurant.Properties.Resources.resources
+C:\Users\Pc\Desktop\fast food restaurant\obj\Debug\fast food restaurant.csproj.GenerateResource.cache
+C:\Users\Pc\Desktop\fast food restaurant\obj\Debug\fast food restaurant.csproj.CoreCompileInputs.cache
+C:\Users\Pc\Desktop\fast food restaurant\obj\Debug\fast food restaurant.exe
+C:\Users\Pc\Desktop\fast food restaurant\obj\Debug\fast food restaurant.pdb
+C:\Users\Pc\Desktop\fast food restaurant\obj\Debug\fast_food_restaurant.Anasayfa.resources
+C:\Users\Pc\Desktop\fast food restaurant\obj\Debug\fast_food_restaurant.Burgerler.resources
+C:\Users\Pc\Desktop\fast food restaurant\obj\Debug\fast_food_restaurant.Icecekler.resources
+C:\Users\Pc\Desktop\fast food restaurant\obj\Debug\fast_food_restaurant.Tatlilar.resources
+C:\Users\Pc\Desktop\fast food restaurant\obj\Debug\fast_food_restaurant.Menuler.resources
+C:\Users\Pc\Desktop\fast food restaurant\obj\Debug\fast food restaurant.csprojAssemblyReference.cache
+C:\Users\Huseyin\Desktop\fast food restaurant\bin\Debug\fast food restaurant.exe.config
+C:\Users\Huseyin\Desktop\fast food restaurant\bin\Debug\fast food restaurant.exe
+C:\Users\Huseyin\Desktop\fast food restaurant\bin\Debug\fast food restaurant.pdb
+C:\Users\Huseyin\Desktop\fast food restaurant\obj\Debug\fast_food_restaurant.Form1.resources
+C:\Users\Huseyin\Desktop\fast food restaurant\obj\Debug\fast_food_restaurant.Icecekler.resources
+C:\Users\Huseyin\Desktop\fast food restaurant\obj\Debug\fast_food_restaurant.Menuler.resources
+C:\Users\Huseyin\Desktop\fast food restaurant\obj\Debug\fast_food_restaurant.Properties.Resources.resources
+C:\Users\Huseyin\Desktop\fast food restaurant\obj\Debug\fast_food_restaurant.Anasayfa.resources
+C:\Users\Huseyin\Desktop\fast food restaurant\obj\Debug\fast_food_restaurant.Burgerler.resources
+C:\Users\Huseyin\Desktop\fast food restaurant\obj\Debug\fast_food_restaurant.Tatlilar.resources
+C:\Users\Huseyin\Desktop\fast food restaurant\obj\Debug\fast food restaurant.csproj.GenerateResource.cache
+C:\Users\Huseyin\Desktop\fast food restaurant\obj\Debug\fast food restaurant.csproj.CoreCompileInputs.cache
+C:\Users\Huseyin\Desktop\fast food restaurant\obj\Debug\fast food restaurant.exe
+C:\Users\Huseyin\Desktop\fast food restaurant\obj\Debug\fast food restaurant.pdb
+C:\Users\Huseyin\Desktop\code\fast food restaurant\bin\Debug\fast food restaurant.exe.config
+C:\Users\Huseyin\Desktop\code\fast food restaurant\bin\Debug\fast food restaurant.exe
+C:\Users\Huseyin\Desktop\code\fast food restaurant\bin\Debug\fast food restaurant.pdb
+C:\Users\Huseyin\Desktop\code\fast food restaurant\obj\Debug\fast food restaurant.csprojAssemblyReference.cache
+C:\Users\Huseyin\Desktop\code\fast food restaurant\obj\Debug\fast_food_restaurant.Form1.resources
+C:\Users\Huseyin\Desktop\code\fast food restaurant\obj\Debug\fast_food_restaurant.Icecekler.resources
+C:\Users\Huseyin\Desktop\code\fast food restaurant\obj\Debug\fast_food_restaurant.Menuler.resources
+C:\Users\Huseyin\Desktop\code\fast food restaurant\obj\Debug\fast_food_restaurant.Properties.Resources.resources
+C:\Users\Huseyin\Desktop\code\fast food restaurant\obj\Debug\fast_food_restaurant.Anasayfa.resources
+C:\Users\Huseyin\Desktop\code\fast food restaurant\obj\Debug\fast_food_restaurant.Burgerler.resources
+C:\Users\Huseyin\Desktop\code\fast food restaurant\obj\Debug\fast_food_restaurant.Tatlilar.resources
+C:\Users\Huseyin\Desktop\code\fast food restaurant\obj\Debug\fast food restaurant.csproj.GenerateResource.cache
+C:\Users\Huseyin\Desktop\code\fast food restaurant\obj\Debug\fast food restaurant.csproj.CoreCompileInputs.cache
+C:\Users\Huseyin\Desktop\code\fast food restaurant\obj\Debug\fast food restaurant.exe
+C:\Users\Huseyin\Desktop\code\fast food restaurant\obj\Debug\fast food restaurant.pdb

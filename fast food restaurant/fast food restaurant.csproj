@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8051EB4E-EBAB-4138-B7FD-DD4D05DEFF0E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>fast_food_restaurant</RootNamespace>
+    <AssemblyName>fast food restaurant</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Icecekler.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Icecekler.Designer.cs">
+      <DependentUpon>Icecekler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menuler.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Menuler.Designer.cs">
+      <DependentUpon>Menuler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Anasayfa.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Anasayfa.Designer.cs">
+      <DependentUpon>Anasayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Burgerler.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Burgerler.Designer.cs">
+      <DependentUpon>Burgerler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tatlilar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tatlilar.Designer.cs">
+      <DependentUpon>Tatlilar.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Icecekler.resx">
+      <DependentUpon>Icecekler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menuler.resx">
+      <DependentUpon>Menuler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Anasayfa.resx">
+      <DependentUpon>Anasayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Burgerler.resx">
+      <DependentUpon>Burgerler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tatlilar.resx">
+      <DependentUpon>Tatlilar.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\icons8_cancel_24px_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\icons8_cancel_24px_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\icons8_confectionery_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\icons8_confectionery_24px_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\icons8_deliver_food_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\icons8_delivery_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\icons8_ereader_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\icons8_ereader_24px_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\icons8_facebook_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\icons8_facebook_24px_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\icons8_hamburger_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\icons8_hamburger_24px_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\icons8_home_page_24px_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\icons8_home_page_24px_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\icons8_instagram_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\icons8_instagram_24px_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\icons8_notification_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\icons8_notification_24px_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\icons8_phone_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\icons8_phone_24px_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\icons8_power_off_button_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\icons8_power_off_button_24px_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\icons8_settings_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\icons8_settings_24px_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\icons8_shutdown_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\icons8_shutdown_24px_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\icons8_twitter_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\icons8_twitter_24px_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\icons8_water_glass_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\icons8_water_glass_24px_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_minimize_window_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_minimize_window_24px_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\burger\çocuk burger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\burger\sultan burger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\burger\usta burger.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\içecek\1L fanta.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\içecek\1L kola.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\içecek\200mL ayran.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\içecek\300mL ayran.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\içecek\330mL fanta.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\içecek\330mL kola.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\içecek\açık ayran.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\içecek\çay.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\içecek\limonata.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\içecek\türk kahvesi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\tatlı\fistikli-baklava.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\tatlı\künefe.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\tatlı\trilece.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\burger\burger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\patates-removebg-preview.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\tatlı\trilece-removebg-preview.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
